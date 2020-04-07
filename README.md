@@ -5,3 +5,4 @@
 2. [炫光流彩特效按钮](https://fansuregrin.github.io/cssEffects/炫光流彩特效按钮.html)
 3. [橡皮筋动画效果](https://fansuregrin.github.io/cssEffects/橡皮筋动画效果.html)
 4. [页面加载效果](https://fansuregrin.github.io/cssEffects/页面加载效果.html)
+5. [按钮开关效果](https://fansuregrin.github.io/cssEffects/按钮开关效果.html)
