@@ -6,3 +6,4 @@
 3. [橡皮筋动画效果](https://fansuregrin.github.io/cssEffects/橡皮筋动画效果.html)
 4. [页面加载效果](https://fansuregrin.github.io/cssEffects/页面加载效果.html)
 5. [按钮开关效果](https://fansuregrin.github.io/cssEffects/按钮开关效果.html)
+6. [代码块仿mac窗口](https://fansuregrin.github.io/cssEffects/仿mac窗口的代码块.html)
