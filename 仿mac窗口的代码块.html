@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>仿mac窗口的代码块</title>
+        <meta charset="utf-8" />
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #block{
+                position: relative;
+                display: block;
+                box-shadow: rgb(9, 9, 9) 4px 2px 8px 0px;
+                width: 800px;
+                background-color: rgba(9, 9, 9, 0.9);
+                color: rgb(99, 222, 0);
+                border-radius: 5px;
+                font-family: "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
+                white-space: pre-wrap;
+                clear: both;
+            }
+            #block::before{
+                content: 'Terminal';
+                position: relative;
+                display: block;
+                padding: 12px;
+                background-color: rgb(1, 1, 1);
+                color: white;
+                border-radius: 5px;
+                font-size: 15px;
+            }
+            #block::after{
+                content: "";
+                display: block;
+                background-image: linear-gradient(rgb(247, 100, 108), rgb(208, 11, 22));
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 13px;
+                right: 8px;
+                border-radius: 50%;
+            }
+            code{
+                display: block;
+                padding: 0 12px;
+                font-family: "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
+                font-size: 15px;
+                line-height: 34px;
+            }
+            code::before{
+                content: "";
+                display: block;
+                background-image: linear-gradient(rgb(100, 247, 108), rgb(11, 208, 22));
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 13px;
+                right: 32px;
+                border-radius: 50%;
+            }
+            code::after{
+                content: "";
+                display: block;
+                background-image: linear-gradient(rgb(247, 220, 110), rgb(217, 177, 12));
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 13px;
+                right: 56px;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <pre id="block"><code>def demo():
+    print('hello world')</code></pre>
+    </body>
+</html>
